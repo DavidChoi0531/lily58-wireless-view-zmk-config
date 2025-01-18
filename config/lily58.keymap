@@ -9,10 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    &led_strip {
-        chain-length = <21>;
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -83,3 +79,7 @@
         extra_3 { status = "reserved"; };
     };
 };
+
+&led_strip {
+        chain-length = <21>;
+    };
