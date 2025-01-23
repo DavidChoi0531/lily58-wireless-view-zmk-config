@@ -99,7 +99,7 @@
 &kp ESCAPE        &none    &none    &none         &none    &none                            &none        &none      &none           &none      &none         &kp BACKSPACE
 &kp TAB           &kp F14  &kp F15  &kp F16       &kp N4   &kp N5                           &none        &none      &none           &kp UP     &none         &none
 &kp LEFT_CONTROL  &kp F17  &kp F18  &kp F19       &kp F5   &kp F6                           &none        &none      &kp LEFT        &kp RIGHT  &none         &none
-&kp LEFT_SHIFT    &kp F20  &kp F21  &kp F22       &kp F11  &kp F12  &none        &none      &kp KP_PLUS  &kp MINUS  &kp DOWN_ARROW  &none      &kp QUESTION  &none
+&kp LEFT_SHIFT    &kp F20  &kp F21  &kp F22       &kp F11  &kp F12  &MC_BRCT     &MC_BRT    &kp KP_PLUS  &kp MINUS  &kp DOWN_ARROW  &none      &kp QUESTION  &none
                                     &kp LEFT_ALT  &none    &none    &kp SPACE    &kp ENTER  &none        &none      &none
             >;
 
