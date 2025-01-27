@@ -88,11 +88,11 @@
 
             display-name = "Lower";
             bindings = <
-&kp ESC           &kp F1   &kp F2   &kp F3        &none             &none                                   &trans  &trans  &kp PLUS  &kp PLUS  &kp EQUAL  &kp BACKSPACE
-&kp TAB           &kp F4   &kp F5   &kp F6        &none             &none                                   &none   &none   &none     &kp PLUS  &kp MINUS  &kp BACKSLASH
-&kp LEFT_CONTROL  &kp F7   &kp F8   &kp F9        &none             &none                                   &none   &none   &none     &none     &none      &kp TILDE
-&kp LEFT_SHIFT    &kp F10  &kp F11  &kp F12       &trans            &trans          &trans       &trans     &trans  &none   &none     &none     &none      &kp PIPE
-                                    &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp SPACE    &kp ENTER  &trans  &trans  &trans
+&kp ESC           &kp F1   &kp F2   &kp F3        &none             &none                             &trans  &trans  &kp PLUS  &kp PLUS  &kp EQUAL  &kp BACKSPACE
+&kp TAB           &kp F4   &kp F5   &kp F6        &none             &none                             &none   &none   &none     &kp PLUS  &kp MINUS  &kp BACKSLASH
+&kp LEFT_CONTROL  &kp F7   &kp F8   &kp F9        &none             &none                             &none   &none   &none     &none     &none      &kp TILDE
+&kp LEFT_SHIFT    &kp F10  &kp F11  &kp F12       &trans            &trans    &trans       &trans     &trans  &none   &none     &none     &none      &kp PIPE
+                                    &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LGUI  &kp SPACE    &kp ENTER  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -108,11 +108,11 @@
 
             display-name = "Raise";
             bindings = <
-&kp ESCAPE        &none    &none    &none         &none    &none                            &none        &none      &none           &none      &none         &kp BACKSPACE
-&kp TAB           &kp F14  &kp F15  &kp F16       &kp N4   &kp N5                           &none        &none      &none           &kp UP     &none         &none
-&kp LEFT_CONTROL  &kp F17  &kp F18  &kp F19       &kp F5   &kp F6                           &none        &none      &kp LEFT        &kp RIGHT  &none         &none
-&kp LEFT_SHIFT    &kp F20  &kp F21  &kp F22       &kp F11  &kp F12  &MC_BRCT     &MC_BRT    &kp KP_PLUS  &kp MINUS  &kp DOWN_ARROW  &none      &kp QUESTION  &none
-                                    &kp LEFT_ALT  &none    &none    &kp SPACE    &kp ENTER  &none        &none      &none
+&kp ESCAPE        &none    &none    &none         &none     &none                             &none        &none      &none           &none      &none         &kp BACKSPACE
+&kp TAB           &kp F14  &kp F15  &kp F16       &kp N4    &kp N5                            &none        &none      &none           &kp UP     &none         &none
+&kp LEFT_CONTROL  &kp F17  &kp F18  &kp F19       &kp F5    &kp F6                            &none        &none      &kp LEFT        &kp RIGHT  &none         &none
+&kp LEFT_SHIFT    &kp F20  &kp F21  &kp F22       &kp F11   &kp F12   &MC_BRCT     &MC_BRT    &kp KP_PLUS  &kp MINUS  &kp DOWN_ARROW  &none      &kp QUESTION  &none
+                                    &kp LEFT_ALT  &kp LGUI  &kp LGUI  &kp SPACE    &kp ENTER  &none        &none      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
