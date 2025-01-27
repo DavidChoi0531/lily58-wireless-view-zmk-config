@@ -25,6 +25,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <9 10>;
         };
+
+        eql_gt_combo {
+            bindings = <&MC_EQL_GT>;
+            key-positions = <47 48 36>;
+        };
     };
 
     macros {
@@ -40,6 +45,13 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACE &kp RBRC &kp LEFT>;
             label = "MC_BRT";
+        };
+
+        MC_EQL_GT: MC_EQL_GT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL &kp GREATER_THAN>;
+            label = "MC_EQL_GT";
         };
     };
 
