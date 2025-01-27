@@ -28,7 +28,7 @@
 
         eql_gt_combo {
             bindings = <&MC_EQL_GT>;
-            key-positions = <47 48 36>;
+            key-positions = <46 47>;
         };
     };
 
